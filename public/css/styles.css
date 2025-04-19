@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+/*nav*/
+.navbar {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 25px;
+    font-weight: bold;
+}
+.navbar .nav-item .btn {
+    color: #fff;
+    background-color: #F03E3E;
+    border: 1 px solid transparent;
+    border-radius: 0;
+}
+
+.nav-link.btn.btn-primary:hover{
+    background-color: #fff;
+    color: #F03E3E;
+    border-color: #F03E3E;
+}
