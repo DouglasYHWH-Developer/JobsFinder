@@ -24,7 +24,7 @@
     border-radius: 0;
 }
 
-.nav-link.btn.btn-primary:hover{
+.nav-link.btn.btn-primary:hover, #search-form button:hover{
     background-color: #fff;
     color: #F03E3E;
     border-color: #F03E3E;
@@ -48,5 +48,27 @@
 }
 #main-subtitle{
     font-size: 1rem;
-    padding: 80px;
+    padding-bottom: 80px;
+}
+
+/* form */
+#search-form{
+    padding: 30px 100px;
+}
+
+#search-form .col-md-10, #search-form .colmd-2{
+    padding: 0;
+}
+
+#search-form input,#search-form button{
+    width: 100%;
+    border-radius: 0;
+    height: 50px;
+    font-size: 18px;
+}
+
+#search-form button {
+    color: #fff;
+    background-color: #F03E3E;
+    border: 1px solid transparent;
 }
