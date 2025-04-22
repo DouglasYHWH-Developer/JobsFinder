@@ -14,6 +14,9 @@ app.listen(PORT, () => {
 //body parser
 app.use(bodyParser.urlencoded({extended: false}));
 
+//handle bars
+app.set('views');
+
 // db connection
 db.authenticate()
   .then(() => {
