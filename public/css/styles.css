@@ -29,3 +29,24 @@
     color: #F03E3E;
     border-color: #F03E3E;
 }
+
+/* banner*/
+#top-container {
+    padding: 110px;
+    background-color: #f7f9fc;
+    border-bottom: 4px solid #013068;
+    margin-bottom: 30px;
+    background-image: url("../img/banner2.jpg");
+    background-position: 0 100px;
+    background-size: cover;
+    color: #fff
+}
+
+#main-title{
+    padding: 30px 0;
+    font-size: 3rem;
+}
+#main-subtitle{
+    font-size: 1rem;
+    padding: 80px;
+}
