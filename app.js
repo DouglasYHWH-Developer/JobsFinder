@@ -16,7 +16,7 @@ app.listen(PORT, () => {
 app.use(bodyParser.urlencoded({extended: false}));
 
 //handle bars
-app.set('views');
+app.set('views', path.join(__dirname, 'views'));
 
 // db connection
 db.authenticate()
