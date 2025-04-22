@@ -32,7 +32,7 @@ db.authenticate()
 
 // routes
 app.get("/", (req, res) => {
-  res.send("Está funcionando 3");
+  res.render('index');
 });
 
 // jobs routes
