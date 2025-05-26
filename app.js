@@ -49,7 +49,8 @@ app.get("/", (req, res) => {
         res.render('index', {
           jobs
         });
-      });
+      })
+      .catch(err => console.log(err));
 }else{
     Job.findAll({
       where: {title: {[Op.like]: search}},
@@ -59,9 +60,10 @@ app.get("/", (req, res) => {
     })
       .then(jobs => {
         res.render('index', {
-          jobs
+          jobs, search
         });
-      });
+      })
+      .catch(err => console.log(err));
   }
 
 });
