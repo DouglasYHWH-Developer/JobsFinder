@@ -31,12 +31,13 @@ router.post('/add', (req, res) => {
 
   // insert
   Job.create({
-    title,
-    description,
-    salary,
-    company,
-    email,
-    new_job
+    title:{
+      type: Sequelize.STRING,
+    },
+    description:{},
+    salary:{},
+    company:{},
+    email:{},
   })
   .then(() => res.redirect('/'))
   .catch(err => console.log(err));
