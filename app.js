@@ -46,7 +46,6 @@ app.get('/', (req, res) => {
       ['createdAt', 'DESC']
     ]})
     .then(jobs => {
-  
       res.render('index', {
         jobs
       });
